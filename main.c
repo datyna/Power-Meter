@@ -185,7 +185,7 @@ ISR(TIMER0_OVF_vect)
 }
 
 /*Timer2 compare match interrupt
-  aka sampling frequency, =1kHz*/
+  aka sampling frequency =1kHz*/
 ISR(TIMER2_COMP_vect)
 {
 	//start one time conversion
